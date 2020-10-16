@@ -13,6 +13,8 @@
 		A2F2F78325397521006A3779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F2F78225397521006A3779 /* Assets.xcassets */; };
 		A2F2F78625397521006A3779 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F2F78525397521006A3779 /* Preview Assets.xcassets */; };
 		A2F2F78925397521006A3779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F2F78725397521006A3779 /* LaunchScreen.storyboard */; };
+		A2F2F79125397907006A3779 /* LightCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F2F79025397907006A3779 /* LightCircle.swift */; };
+		A2F80A592539880400C88EE8 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F80A582539880400C88EE8 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A2F2F78525397521006A3779 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2F2F78825397521006A3779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2F2F78A25397521006A3779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F2F79025397907006A3779 /* LightCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightCircle.swift; sourceTree = "<group>"; };
+		A2F80A582539880400C88EE8 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		A2F2F77B25397520006A3779 /* Lights */ = {
 			isa = PBXGroup;
 			children = (
+				A2F2F79025397907006A3779 /* LightCircle.swift */,
 				A2F2F77C25397520006A3779 /* AppDelegate.swift */,
 				A2F2F77E25397520006A3779 /* SceneDelegate.swift */,
 				A2F2F78025397520006A3779 /* ContentView.swift */,
+				A2F80A582539880400C88EE8 /* CustomButton.swift */,
 				A2F2F78225397521006A3779 /* Assets.xcassets */,
 				A2F2F78725397521006A3779 /* LaunchScreen.storyboard */,
 				A2F2F78A25397521006A3779 /* Info.plist */,
@@ -148,7 +154,9 @@
 			files = (
 				A2F2F77D25397520006A3779 /* AppDelegate.swift in Sources */,
 				A2F2F77F25397520006A3779 /* SceneDelegate.swift in Sources */,
+				A2F2F79125397907006A3779 /* LightCircle.swift in Sources */,
 				A2F2F78125397520006A3779 /* ContentView.swift in Sources */,
+				A2F80A592539880400C88EE8 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
